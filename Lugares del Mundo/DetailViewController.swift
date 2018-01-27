@@ -22,7 +22,7 @@ class DetailViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        self.recipeImageView.image = place.image
+        self.recipeImageView.image = UIImage(data: self.place.image! as Data)
         
         let image = UIImage(named: self.place.rating)
         self.ratingButton.setImage(image, for: .normal)
@@ -47,6 +47,18 @@ class DetailViewController: UIViewController {
                 self.place.rating = rating
                 let image = UIImage(named: self.place.rating)
                 self.ratingButton.setImage(image, for: .normal)
+                
+                if let container = (UIApplication.shared.delegate as? AppDelegate)?.persistentContainer {
+                    
+                    let context = container.viewContext
+                    
+                    do {
+                        try context.save()
+                    } catch {
+                        print("Error al actualizar un lugar")
+                    }
+                    
+                }
                 
             }
         

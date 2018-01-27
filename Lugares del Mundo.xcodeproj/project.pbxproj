@@ -12,6 +12,7 @@
 		8910C51520163DCE0049CA52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8910C51320163DCE0049CA52 /* Main.storyboard */; };
 		8910C51720163DCE0049CA52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8910C51620163DCE0049CA52 /* Assets.xcassets */; };
 		8910C51A20163DCE0049CA52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8910C51820163DCE0049CA52 /* LaunchScreen.storyboard */; };
+		893AE6FA201A339100F5B42F /* Place.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 893AE6F8201A339100F5B42F /* Place.xcdatamodeld */; };
 		899197092018E24A00094E46 /* AddPlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899197082018E24A00094E46 /* AddPlaceViewController.swift */; };
 		89AD10F220177DB800CEBCBB /* RecipeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89AD10EE20177DB800CEBCBB /* RecipeCell.swift */; };
 		89AD10F320177DB800CEBCBB /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89AD10EF20177DB800CEBCBB /* DetailViewController.swift */; };
@@ -30,6 +31,7 @@
 		8910C51620163DCE0049CA52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8910C51920163DCE0049CA52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8910C51B20163DCE0049CA52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		893AE6F9201A339100F5B42F /* Place.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Place.xcdatamodel; sourceTree = "<group>"; };
 		899197082018E24A00094E46 /* AddPlaceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPlaceViewController.swift; sourceTree = "<group>"; };
 		89AD10EE20177DB800CEBCBB /* RecipeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeCell.swift; sourceTree = "<group>"; };
 		89AD10EF20177DB800CEBCBB /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 				8910C51620163DCE0049CA52 /* Assets.xcassets */,
 				8910C51820163DCE0049CA52 /* LaunchScreen.storyboard */,
 				8910C51B20163DCE0049CA52 /* Info.plist */,
+				893AE6F8201A339100F5B42F /* Place.xcdatamodeld */,
 			);
 			path = "Lugares del Mundo";
 			sourceTree = "<group>";
@@ -184,6 +187,7 @@
 				89AD10F720177E5400CEBCBB /* Place.swift in Sources */,
 				89AD10F320177DB800CEBCBB /* DetailViewController.swift in Sources */,
 				89AD10FC2017895600CEBCBB /* MapViewController.swift in Sources */,
+				893AE6FA201A339100F5B42F /* Place.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,6 +356,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		893AE6F8201A339100F5B42F /* Place.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				893AE6F9201A339100F5B42F /* Place.xcdatamodel */,
+			);
+			currentVersion = 893AE6F9201A339100F5B42F /* Place.xcdatamodel */;
+			path = Place.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 8910C50420163DCE0049CA52 /* Project object */;
 }

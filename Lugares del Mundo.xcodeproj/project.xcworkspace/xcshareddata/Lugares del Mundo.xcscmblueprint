@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "383BB14A4CFBCC30CFF47B59935CE92359D5CA08",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "361AB9E3BD1CE5D04C5E95785DE110B4D04816BE" : 9223372036854775807,
+    "383BB14A4CFBCC30CFF47B59935CE92359D5CA08" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "164E513B-DACA-428A-9144-FF43758A58B8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "361AB9E3BD1CE5D04C5E95785DE110B4D04816BE" : "",
+    "383BB14A4CFBCC30CFF47B59935CE92359D5CA08" : "Lugares%20del%20Mundo\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Lugares del Mundo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Lugares del Mundo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/lconder\/Omnilife_iOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "361AB9E3BD1CE5D04C5E95785DE110B4D04816BE"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/lconder\/Lugares.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "383BB14A4CFBCC30CFF47B59935CE92359D5CA08"
+    }
+  ]
+}
